@@ -1,0 +1,35 @@
+# Installed packages and generated builds
+**/node_modules/
+client/dist/
+client/dist-ssr/
+
+# Local configuration; commit only the matching .env.example files
+client/.env
+client/.env.*
+!client/.env.example
+server/.env
+server/.env.*
+!server/.env.example
+
+# Local SQLite data and journals
+server/data/*.db
+server/data/*.db-*
+server/data/*.sqlite
+server/data/*.sqlite-*
+
+# Temporary assets and rendered previews
+tmp/
+
+# Coursework report files retained locally
+output/
+
+# Local coursework planning artifacts
+BACKLOG.md
+backlog-list-view.svg
+
+# Logs and operating-system/editor files
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
+*.tsbuildinfo
